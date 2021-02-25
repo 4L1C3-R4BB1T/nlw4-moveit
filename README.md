@@ -5,5 +5,7 @@
 move.it é um projeto construído durante a 4ª **Next Level Week**, da [Rocketseat](https://rocketseat.com.br "Site da Rocketseat").
 
 # Tecnologias Utilizadas
+- HTML
+- CSS
 - ReactJS 
 - Next.js
