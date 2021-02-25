@@ -29,5 +29,5 @@ cd moveit
 npm install
 
 # executar o projeto
-npm start
+npm run dev
 ```
