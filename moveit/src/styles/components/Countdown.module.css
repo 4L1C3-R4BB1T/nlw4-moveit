@@ -51,15 +51,6 @@
     transition: background-color 0.2s;
 }
 
-.countdownButton>img {
-    margin-left: 0.3rem;
-    margin-top: 0.1rem;
-}
-
-.countdownButton.start>img {
-    margin-left: 1.1rem;
-}
-
 .countdownButton:not(:disabled):hover {
     background: var(--blue-dark);
 }
@@ -81,6 +72,12 @@
     border-bottom: 4px solid var(--green);
 }
 
+.countdownButton>img,
 .countdownButton:disabled>img {
+    margin-top: 0.1rem;
     margin-left: 1.1rem;
+}
+
+.countdownButton.countdownButtonActive>img {
+    margin-left: 0.3rem;
 }

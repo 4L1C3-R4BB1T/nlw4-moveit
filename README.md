@@ -8,9 +8,6 @@ A aplicação se baseia na [Técnica Pomodoro](https://pt.wikipedia.org/wiki/T%C
 
 O usuário pode iniciar ciclos de 25 minutos cada, onde ao final de cada ciclo será proposto um desafio que consiste em realizar um exercício. Pode-se escolher se falhou ou completou o desafio, que caso completado, receberá experiência podendo subir de level.
 
-## Layout
-
-
 # Tecnologias Utilizadas
 - HTML
 - CSS
