@@ -1,0 +1,94 @@
+.container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.container .loginContainer header img {
+    height: 4.75rem;
+    margin-bottom: 6rem;
+}
+
+.container .loginContainer strong {
+    color: var(--white);
+    font-size: 2.25rem;
+}
+
+.container .loginContainer div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.container .loginContainer .githubMessage {
+    margin-top: 1.5rem;
+}
+
+.container .loginContainer .githubMessage img {
+    height: 2.5rem;
+    margin-right: 1.5rem;
+}
+
+.container .loginContainer .githubMessage p {
+    color: var(--text-highlight);
+    font-weight: 500;
+    font-size: 1.25rem;
+}
+
+.container .loginContainer .insertName {
+    margin-top: 2.5rem;
+}
+
+.container .loginContainer .insertName input {
+    height: 5rem;
+    width: 21.25rem;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: var(--white);
+    padding: 0 1.895rem;
+    background: linear-gradient(90deg, #4953B8 0%, rgba(73, 83, 184, 0.2) 100%);
+}
+
+.container .loginContainer .insertName input:hover,
+.container .loginContainer .insertName input:focus {
+    outline: transparent;
+    border: 1.5px solid #414AA3;
+}
+
+.container .loginContainer .insertName input::placeholder {
+    font-weight: 400;
+    color: var(--text-highlight);
+}
+
+.container .loginContainer .insertName input.validate {
+    border: 1.5px solid red;
+    background: linear-gradient(90deg, red 0%, rgba(73, 83, 184, 0.2) 100%);
+}
+
+.container .loginContainer .insertName button {
+    height: 5rem;
+    width: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--blue-dark);
+    border-radius: 0 5px 5px 0;
+}
+
+.container .loginContainer .insertName button img {
+    height: 1.5rem;
+}
+
+.container .loginContainer>p {
+    color: var(--text-highlight);
+    font-size: 1.2rem;
+    margin-top: 1.2rem;
+    text-align: end;
+    cursor: pointer;
+}
+
+.container .loginContainer>p:hover {
+    color: var(--white);
+}

@@ -1,0 +1,34 @@
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: var(--blue);
+}
+
+.container section {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.container section .simbolContainer {
+    display: none;
+}
+
+@media(min-width: 1210px) {
+    .container section .simbolContainer {
+        display: block;
+    }
+
+    .container section {
+        flex: 1;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+        align-content: center;
+    }
+
+    .container section .simbolContainer img {
+        height: 41.25rem;
+    }
+}
