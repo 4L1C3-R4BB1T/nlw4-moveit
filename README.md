@@ -11,6 +11,12 @@ A aplicação se baseia na [Técnica Pomodoro](https://pt.wikipedia.org/wiki/T%C
 
 O usuário pode iniciar ciclos de 25 minutos cada, onde ao final de cada ciclo será proposto um desafio que consiste em realizar um exercício. Pode-se escolher se falhou ou completou o desafio, que caso completado, receberá experiência podendo subir de level.
 
+## Layout
+<img height="450" src="https://github.com/4L1C3-R4BB1T/nlw4-moveit/raw/main/_assets/web1.png" alt="Web 1">
+<img height="450" src="https://github.com/4L1C3-R4BB1T/nlw4-moveit/raw/main/_assets/web2.png" alt="Web 2">
+<img height="450" src="https://github.com/4L1C3-R4BB1T/nlw4-moveit/raw/main/_assets/web3.png" alt="Web 2">
+<img height="450" src="https://github.com/4L1C3-R4BB1T/nlw4-moveit/raw/main/_assets/web4.png" alt="Web 2">
+
 # Tecnologias Utilizadas
 - HTML
 - CSS
