@@ -64,10 +64,14 @@
     color: var(--white);
 }
 
+.countdownButtonActive:not(:disabled):hover>img {
+    filter: brightness(0) invert(1);
+}
+
 .countdownButton:disabled {
     background: var(--white);
     color: var(--text);
-    cursor: not-allowed;
+    cursor: default;
     border-bottom: 4px solid var(--green);
 }
 

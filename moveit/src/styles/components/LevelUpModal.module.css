@@ -64,10 +64,18 @@
     font-size: 1.25rem;
     font-weight: 500;
     color: var(--blue-twitter);
-    transition: 0.4s;
+    transition: background-color 0.2s;
+}
+
+.container footer button.twitterShare>img {
+    margin-left: 0.5rem;
 }
 
 .container footer button.twitterShare:hover {
     background: var(--blue-twitter);
     color: var(--white);
+}
+
+.container footer button.twitterShare:hover>img {
+    filter: brightness(0) invert(1);
 }

@@ -35,6 +35,7 @@ export function LevelUpModal() {
                         onClick={shareProgress}
                     >
                         Compartilhar no Twitter
+                        <img src="/icons/twitter.svg" alt="Twitter" />
                     </button>
                 </footer>
             </div>
