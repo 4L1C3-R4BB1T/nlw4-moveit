@@ -27,9 +27,7 @@ export function LoginProvider({ children }: LoginProviderProps) {
                 let data = JSON.parse(xhttp.responseText);
                 setName(data.name);
                 setImage_url(data.avatar_url);
-                console.log(data);
             } else if (xhttp.status == 404) {
-                // provisional
                 alert("Usuário não encontrado! Você entrará como visitante.");
             }
         }

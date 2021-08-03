@@ -10,8 +10,8 @@ export default function LoginBox() {
     const [isEmpty, setIsEmpty] = useState(true);
 
     function searchGithubUser() {  
-        const username = document.querySelector('input').value; 
-        if (username != "") {
+        const username = document.querySelector('input').value.trim(); 
+        if (username != '') {
             fetchUserData(username);
         } else {
             let input = document.querySelector('input')
@@ -21,7 +21,7 @@ export default function LoginBox() {
     }
 
     function validateField() {
-        if (document.querySelector('input').value != "") {
+        if (document.querySelector('input').value.trim() != '') {
             setIsEmpty(false);
         } else {
             setIsEmpty(true);
